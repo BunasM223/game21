@@ -1,6 +1,7 @@
 package com.test.pack;
 
 public class Card {
+
     private Suit suit;
     private Value value;
 
@@ -25,11 +26,12 @@ public class Card {
         this.value = value;
     }
 
+
     @Override
     public String toString() {
         return "Card{" +
-                "suit=" + suit +
-                ", value=" + value +
+                "suit= " + suit +
+                ", value= " + value +
                 '}';
     }
 }
